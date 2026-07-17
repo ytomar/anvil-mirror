@@ -1,0 +1,28 @@
+ANVIL — append-only, externally witnessed log of falsifiable claims
+origin: anvil.yourarmor.ai/log/v0   (this file is RENDERED from the log; the log is ground truth)
+verify it yourself: https://anvil.yourarmor.ai/verify
+
+Checkpoint: tree size 5, root oCUWGHC2ZLQpwdkmwbQ478gkBhqNjUUGjNLfpVdFedM=
+Last external witness (RFC 3161, freetsa.org): 2026-07-17T11:50:44Z covering tree size 5
+Verification at generation time: checkpoint signature OK, Merkle root rebuild OK, 0 entry-level problems
+
+Claimants (2):
+  biswa@anvil — HUMAN, registered at leaf 1, 2 entries (1 claims)
+  yogesh@anvil — HUMAN, registered at leaf 0, 3 entries (2 claims)
+
+Entries (5) — every entry, in leaf order; misses are as permanent as hits:
+  leaf 0: REGISTRATION of yogesh@anvil
+  leaf 1: REGISTRATION of biswa@anvil
+  leaf 2: CLAIM yogesh@anvil:0 [PENDING] subject={"id":"IndexPlus live portfolio (INR 50,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-07-17","baseline_date":"2026-04-28","benchmark_return_pct":1.3749,"gap_bps":-15.63,"observations":56,"portfolio_return_pct":1.2186,"statement":"The series committed to by sha256 e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218 records the IndexPlus live portfolio from 2026-04-28 (baseline) through 2026-07-17: portfolio +1.2186%, NIFTY 50 price index +1.3749% over the same dates \u2014 the portfolio TRAILS the benchmark by 15.63 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would widen the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-07-24T11:22:00Z
+           detail: https://anvil.yourarmor.ai/claims/yogesh@anvil:0
+  leaf 3: CLAIM biswa@anvil:0 [PENDING] subject={"id":"IndexPlus live portfolio (INR 50,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-07-17","baseline_date":"2026-04-28","benchmark_return_pct":1.3749,"co_seals_claim":"yogesh@anvil:0","co_signed_with":"yogesh@anvil","gap_bps":-15.63,"observations":56,"portfolio_return_pct":1.2186,"statement":"The series committed to by sha256 e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218 records the IndexPlus live portfolio from 2026-04-28 (baseline) through 2026-07-17: portfolio +1.2186%, NIFTY 50 price index +1.3749% over the same dates \u2014 the portfolio TRAILS the benchmark by 15.63 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would widen the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-07-24T11:22:00Z
+           detail: https://anvil.yourarmor.ai/claims/biswa@anvil:0
+  leaf 4: CLAIM yogesh@anvil:1 [PENDING] subject={"id":"IndexPlus live portfolio (INR 10,000,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-07-17","baseline_date":"2026-02-19","benchmark_return_pct":-4.2089,"gap_bps":489.24,"observations":98,"portfolio_return_pct":0.6835,"statement":"The series committed to by sha256 5e2e68efc653c068dae082ded796e3c8fc18b1055966e0a06f2141dd90dae03e records the IndexPlus live portfolio from 2026-02-19 (baseline) through 2026-07-17: portfolio +0.6835%, NIFTY 50 price index -4.2089% over the same dates \u2014 the portfolio LEADS the benchmark by 489.24 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would narrow the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-07-24T11:50:23Z
+           detail: https://anvil.yourarmor.ai/claims/yogesh@anvil:1
+
+Claim status counts: {"PENDING": 3}
+
+What failure would look like: an edited entry breaks the Merkle root; a deleted
+entry breaks per-claimant seq density; a backdated entry contradicts the RFC 3161
+timestamps. None of these can be hidden from the verifier at https://anvil.yourarmor.ai/verify.py.
+generated_at: 2026-07-17T11:57:28Z
