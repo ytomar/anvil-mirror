@@ -1,6 +1,6 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-18T05:17:03Z",
+ "generated_at": "2026-07-18T05:25:08Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
@@ -14,7 +14,8 @@
   "witness_index": "https://anvil.yourarmor.ai/witness",
   "oracle_index": "https://anvil.yourarmor.ai/oracles",
   "instructions": "https://anvil.yourarmor.ai/verify",
-  "mirror": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/"
+  "mirror_pack": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/pack.json",
+  "mirror_repo": "https://github.com/ytomar/anvil-mirror"
  },
  "checkpoint": {
   "raw": "anvil.yourarmor.ai/log/v0\n5\noCUWGHC2ZLQpwdkmwbQ478gkBhqNjUUGjNLfpVdFedM=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUdyMclf+PrG6VkD2Cuie6Mk1ujnitEZBo+CjT3qgJ27+VkoIKwc1a3odgd4D9ZLS7ItNgbRIjC/XHGqmzQi397gs=\n",
@@ -694,6 +695,14 @@
     "tree_size": 5
    },
    {
+    "token": "checkpoint.20260718T052506Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T052506Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T052506Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-18T05:25:07Z",
+    "tree_size": 5
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -924,14 +933,22 @@
     "tsa": "digicert",
     "time_utc": "2026-07-18T05:17:02Z",
     "tree_size": 5
+   },
+   {
+    "token": "digicert/checkpoint.20260718T052507Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T052507Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T052507Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-18T05:25:07Z",
+    "tree_size": 5
    }
   ],
   "latest": {
-   "token": "checkpoint.20260718T051701Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z",
+   "token": "checkpoint.20260718T052506Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T052506Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T052506Z",
    "tsa": "freetsa.org",
-   "time_utc": "2026-07-18T05:17:02Z",
+   "time_utc": "2026-07-18T05:25:07Z",
    "tree_size": 5
   },
   "note": "RFC 3161 tokens over checkpoint bytes; raw tokens mirrored under /witness/"
