@@ -1,8 +1,21 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-18T04:17:03Z",
+ "generated_at": "2026-07-18T05:17:03Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
+ "urls": {
+  "checkpoint": "https://anvil.yourarmor.ai/log/v0/checkpoint",
+  "vkey": "https://anvil.yourarmor.ai/log.vkey",
+  "entry_bundles": [
+   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/5"
+  ],
+  "verifier": "https://anvil.yourarmor.ai/verify.py",
+  "witness_verifier": "https://anvil.yourarmor.ai/verify_witness.py",
+  "witness_index": "https://anvil.yourarmor.ai/witness",
+  "oracle_index": "https://anvil.yourarmor.ai/oracles",
+  "instructions": "https://anvil.yourarmor.ai/verify",
+  "mirror": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/"
+ },
  "checkpoint": {
   "raw": "anvil.yourarmor.ai/log/v0\n5\noCUWGHC2ZLQpwdkmwbQ478gkBhqNjUUGjNLfpVdFedM=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUdyMclf+PrG6VkD2Cuie6Mk1ujnitEZBo+CjT3qgJ27+VkoIKwc1a3odgd4D9ZLS7ItNgbRIjC/XHGqmzQi397gs=\n",
   "tree_size": 5,
@@ -226,7 +239,8 @@
    "grading_window": "168h",
    "status": "PENDING",
    "resolution_leaf": null,
-   "verdict": null
+   "verdict": null,
+   "url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:0"
   },
   "biswa@anvil:0": {
    "claim_id": "biswa@anvil:0",
@@ -237,7 +251,8 @@
    "grading_window": "168h",
    "status": "PENDING",
    "resolution_leaf": null,
-   "verdict": null
+   "verdict": null,
+   "url": "https://anvil.yourarmor.ai/claims/biswa@anvil:0"
   },
   "yogesh@anvil:1": {
    "claim_id": "yogesh@anvil:1",
@@ -248,496 +263,675 @@
    "grading_window": "168h",
    "status": "PENDING",
    "resolution_leaf": null,
-   "verdict": null
+   "verdict": null,
+   "url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:1"
   }
  },
  "witness": {
   "tokens": [
    {
     "token": "checkpoint.20260716T094807Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T094807Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T094807Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T09:48:08Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T111646Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T111646Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T111646Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T11:16:47Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T111701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T111701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T111701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T11:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T121701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T121701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T121701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T12:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T131701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T131701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T131701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T13:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T141701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T141701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T141701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T14:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T151701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T151701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T151701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T15:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T161702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T161702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T161702Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T16:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T171701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T171701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T171701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T17:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T181701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T181701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T181701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T18:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T191701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T191701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T191701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T19:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T201701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T201701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T201701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T20:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T211701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T211701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T211701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T21:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T221701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T221701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T221701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T22:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260716T231701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T231701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260716T231701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-16T23:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T001701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T001701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T001701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T00:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T011701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T011701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T011701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T01:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T021701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T021701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T021701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T02:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T031701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T031701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T031701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T03:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T041701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T041701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T041701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T04:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T051701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T051701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T051701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T05:17:01Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T061701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T061701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T061701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T06:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T071701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T071701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T071701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T07:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T081701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T081701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T081701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T08:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T083632Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T083632Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T083632Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T08:36:33Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T091701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T091701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T091701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T09:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T101701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T101701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T101701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T10:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T102149Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T102149Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T102149Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T10:21:50Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T111701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T111701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T111701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:17:02Z",
     "tree_size": 2
    },
    {
     "token": "checkpoint.20260717T112216Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T112216Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T112216Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:22:17Z",
     "tree_size": 3
    },
    {
     "token": "checkpoint.20260717T113530Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T113530Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T113530Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:35:31Z",
     "tree_size": 4
    },
    {
     "token": "checkpoint.20260717T115043Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T115043Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T115043Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:50:44Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T115814Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T115814Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T115814Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:58:14Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T121525Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T121525Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T121525Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T12:15:26Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T121701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T121701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T121701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T12:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T131701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T131701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T131701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T13:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T141701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T141701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T141701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T14:17:01Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T151701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T151701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T151701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T15:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T161701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T161701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T161701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T16:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T171701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T171701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T171701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T17:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T181701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T181701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T181701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T18:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T191701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T191701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T191701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T19:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T201701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T201701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T201701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T20:17:01Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T211701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T211701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T211701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T21:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T221701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T221701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T221701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T22:17:01Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260717T231701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T231701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260717T231701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T23:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T001701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T001701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T001701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T00:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T005427Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T005427Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T005427Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T00:54:28Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T011701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T011701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T011701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T01:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T021701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T021701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T021701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T02:17:01Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T031701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T031701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T031701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T03:17:02Z",
     "tree_size": 5
    },
    {
     "token": "checkpoint.20260718T041701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T041701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T041701Z",
     "tsa": "freetsa.org",
     "time_utc": "2026-07-18T04:17:02Z",
     "tree_size": 5
    },
    {
+    "token": "checkpoint.20260718T051701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-18T05:17:02Z",
+    "tree_size": 5
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T08:36:33Z",
     "tree_size": 2
    },
    {
     "token": "digicert/checkpoint.20260717T091702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T091702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T091702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T09:17:03Z",
     "tree_size": 2
    },
    {
     "token": "digicert/checkpoint.20260717T101702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T101702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T101702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T10:17:02Z",
     "tree_size": 2
    },
    {
     "token": "digicert/checkpoint.20260717T102150Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T102150Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T102150Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T10:21:50Z",
     "tree_size": 2
    },
    {
     "token": "digicert/checkpoint.20260717T111702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T111702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T111702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T11:17:03Z",
     "tree_size": 2
    },
    {
     "token": "digicert/checkpoint.20260717T112217Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T112217Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T112217Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T11:22:18Z",
     "tree_size": 3
    },
    {
     "token": "digicert/checkpoint.20260717T113531Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T113531Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T113531Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T11:35:31Z",
     "tree_size": 4
    },
    {
     "token": "digicert/checkpoint.20260717T115044Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T115044Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T115044Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T11:50:44Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T115814Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T115814Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T115814Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T11:58:15Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T121526Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T121526Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T121526Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T12:15:26Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T121702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T121702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T121702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T12:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T131702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T131702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T131702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T13:17:03Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T141702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T141702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T141702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T14:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T151702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T151702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T151702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T15:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T161702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T161702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T161702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T16:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T171702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T171702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T171702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T17:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T181702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T181702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T181702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T18:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T191702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T191702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T191702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T19:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T201701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T201701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T201701Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T20:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T211702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T211702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T211702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T21:17:03Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T221701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T221701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T221701Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T22:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260717T231702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T231702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T231702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-17T23:17:03Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T001702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T001702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T001702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T00:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T005428Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T005428Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T005428Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T00:54:29Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T011702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T011702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T011702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T01:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T021701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T021701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T021701Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T02:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T031702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T031702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T031702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T03:17:02Z",
     "tree_size": 5
    },
    {
     "token": "digicert/checkpoint.20260718T041702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T041702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T041702Z",
     "tsa": "digicert",
     "time_utc": "2026-07-18T04:17:02Z",
+    "tree_size": 5
+   },
+   {
+    "token": "digicert/checkpoint.20260718T051702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T051702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260718T051702Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-18T05:17:02Z",
     "tree_size": 5
    }
   ],
   "latest": {
-   "token": "checkpoint.20260718T041701Z.tsr",
+   "token": "checkpoint.20260718T051701Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260718T051701Z",
    "tsa": "freetsa.org",
-   "time_utc": "2026-07-18T04:17:02Z",
+   "time_utc": "2026-07-18T05:17:02Z",
    "tree_size": 5
   },
   "note": "RFC 3161 tokens over checkpoint bytes; raw tokens mirrored under /witness/"
@@ -752,7 +946,8 @@
    "raw_file": "oracles/ental/20260717T090202Z_03f88e40.raw",
    "note": "log returns MF_INF044D01CQ5 (Taurus Nifty 50 Index Fund - Direct Plan - Growth) 2026-06-01..2026-07-15",
    "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
-   "fetch_count": 1
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090202Z_03f88e40.raw"
   },
   {
    "source": "mfapi",
@@ -763,7 +958,8 @@
    "raw_file": "oracles/mfapi/20260717T090301Z_55078468.raw",
    "note": "NAV series for Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
    "independence": "independent public source",
-   "fetch_count": 3
+   "fetch_count": 3,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/mfapi/20260717T090301Z_55078468.raw"
   },
   {
    "source": "mfapi",
@@ -774,7 +970,8 @@
    "raw_file": "oracles/mfapi/20260717T090301Z_73a56c6f.raw",
    "note": "NAV series for UTI Nifty 50 Index Fund - Growth Option- Direct",
    "independence": "independent public source",
-   "fetch_count": 4
+   "fetch_count": 4,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/mfapi/20260717T090301Z_73a56c6f.raw"
   },
   {
    "source": "ental",
@@ -785,7 +982,8 @@
    "raw_file": "oracles/ental/20260717T090735Z_ddcf3481.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2017-01-01..2020-12-31",
    "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
-   "fetch_count": 1
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090735Z_ddcf3481.raw"
   },
   {
    "source": "ental",
@@ -796,7 +994,8 @@
    "raw_file": "oracles/ental/20260717T090736Z_c1cb7162.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2021-01-01..2024-12-31",
    "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
-   "fetch_count": 1
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090736Z_c1cb7162.raw"
   },
   {
    "source": "ental",
@@ -807,7 +1006,8 @@
    "raw_file": "oracles/ental/20260717T090737Z_de1d670b.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2025-01-01..2026-07-17",
    "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
-   "fetch_count": 1
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090737Z_de1d670b.raw"
   }
  ]
 }
