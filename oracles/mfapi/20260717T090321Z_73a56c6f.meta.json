@@ -1,0 +1,9 @@
+{
+ "source": "mfapi",
+ "url": "https://api.mfapi.in/mf/120716",
+ "fetched_at_utc": "20260717T090321Z",
+ "sha256": "73a56c6f8d818a89f803178db7073fade9a6dcb6393f4f91e052f41b02655a6d",
+ "bytes": 131451,
+ "raw_file": "oracles/mfapi/20260717T090321Z_73a56c6f.raw",
+ "note": "NAV series for UTI Nifty 50 Index Fund - Growth Option- Direct"
+}

@@ -1,0 +1,9 @@
+{
+ "source": "mfapi",
+ "url": "https://api.mfapi.in/mf/122639",
+ "fetched_at_utc": "20260717T090320Z",
+ "sha256": "5507846842e8b22a1c0f418427a71e314c706e11745a5dc2ff334eab20e16e33",
+ "bytes": 126220,
+ "raw_file": "oracles/mfapi/20260717T090320Z_55078468.raw",
+ "note": "NAV series for Parag Parikh Flexi Cap Fund - Direct Plan - Growth"
+}

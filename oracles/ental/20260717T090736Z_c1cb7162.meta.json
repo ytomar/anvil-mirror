@@ -1,0 +1,9 @@
+{
+ "source": "ental",
+ "url": "https://api.ental.ai/api/v1/returns/",
+ "fetched_at_utc": "20260717T090736Z",
+ "sha256": "c1cb7162572feaa23e71c86f1470bd7a3ce8a21c067ce59c14c015cda4bafd6a",
+ "bytes": 79193,
+ "raw_file": "oracles/ental/20260717T090736Z_c1cb7162.raw",
+ "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2021-01-01..2024-12-31"
+}

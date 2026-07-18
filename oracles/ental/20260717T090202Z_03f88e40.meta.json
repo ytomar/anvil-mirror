@@ -1,0 +1,9 @@
+{
+ "source": "ental",
+ "url": "https://api.ental.ai/api/v1/returns/",
+ "fetched_at_utc": "20260717T090202Z",
+ "sha256": "03f88e40187ee3fbc8e29c3d59d2dd749878364b8bf0f9b0750dbe18df099f75",
+ "bytes": 2712,
+ "raw_file": "oracles/ental/20260717T090202Z_03f88e40.raw",
+ "note": "log returns MF_INF044D01CQ5 (Taurus Nifty 50 Index Fund - Direct Plan - Growth) 2026-06-01..2026-07-15"
+}
