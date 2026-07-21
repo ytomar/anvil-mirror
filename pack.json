@@ -1,6 +1,6 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-21T16:17:03Z",
+ "generated_at": "2026-07-21T17:17:03Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
@@ -1367,6 +1367,14 @@
     "tree_size": 5
    },
    {
+    "token": "checkpoint.20260721T171701Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260721T171701Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260721T171701Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-21T17:17:02Z",
+    "tree_size": 5
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -2269,14 +2277,22 @@
     "tsa": "digicert",
     "time_utc": "2026-07-21T16:17:03Z",
     "tree_size": 5
+   },
+   {
+    "token": "digicert/checkpoint.20260721T171702Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T171702Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T171702Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-21T17:17:03Z",
+    "tree_size": 5
    }
   ],
   "latest": {
-   "token": "digicert/checkpoint.20260721T161702Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T161702Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T161702Z",
+   "token": "digicert/checkpoint.20260721T171702Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T171702Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260721T171702Z",
    "tsa": "digicert",
-   "time_utc": "2026-07-21T16:17:03Z",
+   "time_utc": "2026-07-21T17:17:03Z",
    "tree_size": 5
   },
   "note": "RFC 3161 tokens over checkpoint bytes; raw tokens mirrored under /witness/"
