@@ -1,7 +1,7 @@
 # How to audit the Anvil log (machine-readable edition)
 
 Current tree size: **10** · root `VD6iTzPeD9AyEaB99eDqGqI8LTCjRmA/3vj4deODbSQ=` · origin `anvil.yourarmor.ai/log/v0`
-Generated 2026-07-24T18:17:02Z. HTML twin: https://anvil.yourarmor.ai/verify
+Generated 2026-07-24T19:17:03Z. HTML twin: https://anvil.yourarmor.ai/verify
 
 You are invited to be adversarial. Everything below is executable without
 permission from the operator.
