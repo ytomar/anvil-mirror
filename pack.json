@@ -1,6 +1,6 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-24T12:17:03Z",
+ "generated_at": "2026-07-24T12:34:55Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
@@ -115,7 +115,7 @@
      "key": "benchmark_public",
      "label": "Benchmark values match the public record",
      "pass": true,
-     "detail": "graded HIT by a sealed resolution (leaf 7) against an independent record of official closes \u2014 see the claim page"
+     "detail": "graded HIT by sealed resolution (leaf 7): every session within 0.5% of the independent record (https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history); worst deviation 0.2614% on 2026-05-29; oracle snapshot sha256 9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c, raw bytes at https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
     }
    ],
    "series": {
@@ -295,6 +295,52 @@
     ],
     "benchmark_name": "NIFTY 50",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json"
+   },
+   "evidence": {
+    "leaf_index": 2,
+    "leaf_hash_b64": "5rZslypDgI/aq/fxhOsIKbUsDNUGm7KxhK+cnYyU7y8=",
+    "leaf_hash_rule": "SHA256(0x00 || entry_bytes), RFC 6962",
+    "exhibit_sha256": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+    "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
+    "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:0?format=json",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/10",
+    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
+    "resolution_leaf": 7,
+    "resolution_oracle_reading": {
+     "asserted": {
+      "benchmark_return_pct": 1.3749,
+      "gap_bps": -15.63,
+      "observations": 56,
+      "portfolio_return_pct": 1.2186
+     },
+     "criterion_executed": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+     "exhibit_sha256_observed": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+     "exhibit_sha256_sealed": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+     "exhibit_url_fetched": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
+     "graded_at_utc": "2026-07-24T11:52:00Z",
+     "official_snapshot": {
+      "raw_file": "oracles/yahoo/20260724T115201Z_9915fd1b.raw",
+      "sha256": "9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c",
+      "url": "https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
+     },
+     "official_source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history",
+     "official_source_fallback_note": "niftyindices.com not usable at grading time: niftyindices fetch failed for 'NIFTY 50' (Expecting value: line 1 column 2 (char 1)). The site is browser-gated; either download the TRI CSV manually and snapshot it, or use the ental adapter (search 'NIFTY 50 TRI') for the same series.",
+     "official_source_kind": "independent record of official NIFTY 50 closes (Yahoo Finance ^NSEI daily close, IST session dates)",
+     "recomputed": {
+      "benchmark_return_pct": 1.3749,
+      "gap_bps": -15.63,
+      "observations": 56,
+      "portfolio_return_pct": 1.2186
+     },
+     "tolerance_check": {
+      "dates_checked": 56,
+      "max_abs_deviation_pct": 0.2614,
+      "official_close_on_worst_date": 23547.75,
+      "tolerance_pct": 0.5,
+      "worst_date": "2026-05-29"
+     },
+     "verdict_basis": "all three hit_if legs pass"
+    }
    },
    "note": "recomputed by the rendering layer from public inputs; re-run any cell yourself: https://anvil.yourarmor.ai/verify"
   },
@@ -324,7 +370,7 @@
      "key": "benchmark_public",
      "label": "Benchmark values match the public record",
      "pass": true,
-     "detail": "graded HIT by a sealed resolution (leaf 8) against an independent record of official closes \u2014 see the claim page"
+     "detail": "graded HIT by sealed resolution (leaf 8): every session within 0.5% of the independent record (https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history); worst deviation 0.2614% on 2026-05-29; oracle snapshot sha256 9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c, raw bytes at https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
     }
    ],
    "series": {
@@ -505,6 +551,52 @@
     "benchmark_name": "NIFTY 50",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json"
    },
+   "evidence": {
+    "leaf_index": 3,
+    "leaf_hash_b64": "3TrR0pVSix3ZvyIiToT1XbZi6H/29czy+DZCBRXRBTM=",
+    "leaf_hash_rule": "SHA256(0x00 || entry_bytes), RFC 6962",
+    "exhibit_sha256": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+    "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
+    "claim_json_url": "https://anvil.yourarmor.ai/claims/biswa@anvil:0?format=json",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/10",
+    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
+    "resolution_leaf": 8,
+    "resolution_oracle_reading": {
+     "asserted": {
+      "benchmark_return_pct": 1.3749,
+      "gap_bps": -15.63,
+      "observations": 56,
+      "portfolio_return_pct": 1.2186
+     },
+     "criterion_executed": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+     "exhibit_sha256_observed": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+     "exhibit_sha256_sealed": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
+     "exhibit_url_fetched": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
+     "graded_at_utc": "2026-07-24T11:52:00Z",
+     "official_snapshot": {
+      "raw_file": "oracles/yahoo/20260724T115201Z_9915fd1b.raw",
+      "sha256": "9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c",
+      "url": "https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
+     },
+     "official_source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history",
+     "official_source_fallback_note": "niftyindices.com not usable at grading time: niftyindices fetch failed for 'NIFTY 50' (Expecting value: line 1 column 2 (char 1)). The site is browser-gated; either download the TRI CSV manually and snapshot it, or use the ental adapter (search 'NIFTY 50 TRI') for the same series.",
+     "official_source_kind": "independent record of official NIFTY 50 closes (Yahoo Finance ^NSEI daily close, IST session dates)",
+     "recomputed": {
+      "benchmark_return_pct": 1.3749,
+      "gap_bps": -15.63,
+      "observations": 56,
+      "portfolio_return_pct": 1.2186
+     },
+     "tolerance_check": {
+      "dates_checked": 56,
+      "max_abs_deviation_pct": 0.2614,
+      "official_close_on_worst_date": 23547.75,
+      "tolerance_pct": 0.5,
+      "worst_date": "2026-05-29"
+     },
+     "verdict_basis": "all three hit_if legs pass"
+    }
+   },
    "note": "recomputed by the rendering layer from public inputs; re-run any cell yourself: https://anvil.yourarmor.ai/verify"
   },
   "yogesh@anvil:1": {
@@ -533,7 +625,7 @@
      "key": "benchmark_public",
      "label": "Benchmark values match the public record",
      "pass": true,
-     "detail": "graded HIT by a sealed resolution (leaf 9) against an independent record of official closes \u2014 see the claim page"
+     "detail": "graded HIT by sealed resolution (leaf 9): every session within 0.5% of the independent record (https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history); worst deviation 0.3726% on 2026-03-19; oracle snapshot sha256 9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c, raw bytes at https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
     }
    ],
    "series": {
@@ -839,6 +931,52 @@
     ],
     "benchmark_name": "NIFTY 50",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/5e2e68efc653c068.json"
+   },
+   "evidence": {
+    "leaf_index": 4,
+    "leaf_hash_b64": "KuPAcBYKoJpSkvpVgwMKQaExbbjhpql1C12EoURZyNA=",
+    "leaf_hash_rule": "SHA256(0x00 || entry_bytes), RFC 6962",
+    "exhibit_sha256": "5e2e68efc653c068dae082ded796e3c8fc18b1055966e0a06f2141dd90dae03e",
+    "exhibit_url": "https://anvil.yourarmor.ai/exhibits/5e2e68efc653c068.json",
+    "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:1?format=json",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/10",
+    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
+    "resolution_leaf": 9,
+    "resolution_oracle_reading": {
+     "asserted": {
+      "benchmark_return_pct": -4.2089,
+      "gap_bps": 489.24,
+      "observations": 98,
+      "portfolio_return_pct": 0.6835
+     },
+     "criterion_executed": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+     "exhibit_sha256_observed": "5e2e68efc653c068dae082ded796e3c8fc18b1055966e0a06f2141dd90dae03e",
+     "exhibit_sha256_sealed": "5e2e68efc653c068dae082ded796e3c8fc18b1055966e0a06f2141dd90dae03e",
+     "exhibit_url_fetched": "https://anvil.yourarmor.ai/exhibits/5e2e68efc653c068.json",
+     "graded_at_utc": "2026-07-24T11:52:00Z",
+     "official_snapshot": {
+      "raw_file": "oracles/yahoo/20260724T115201Z_9915fd1b.raw",
+      "sha256": "9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c",
+      "url": "https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw"
+     },
+     "official_source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history",
+     "official_source_fallback_note": "niftyindices.com not usable at grading time: niftyindices fetch failed for 'NIFTY 50' (Expecting value: line 1 column 2 (char 1)). The site is browser-gated; either download the TRI CSV manually and snapshot it, or use the ental adapter (search 'NIFTY 50 TRI') for the same series.",
+     "official_source_kind": "independent record of official NIFTY 50 closes (Yahoo Finance ^NSEI daily close, IST session dates)",
+     "recomputed": {
+      "benchmark_return_pct": -4.2089,
+      "gap_bps": 489.24,
+      "observations": 98,
+      "portfolio_return_pct": 0.6835
+     },
+     "tolerance_check": {
+      "dates_checked": 98,
+      "max_abs_deviation_pct": 0.3726,
+      "official_close_on_worst_date": 23002.150390625,
+      "tolerance_pct": 0.5,
+      "worst_date": "2026-03-19"
+     },
+     "verdict_basis": "all three hit_if legs pass"
+    }
    },
    "note": "recomputed by the rendering layer from public inputs; re-run any cell yourself: https://anvil.yourarmor.ai/verify"
   },
@@ -1183,6 +1321,16 @@
     ],
     "benchmark_name": "NIFTY 50",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/9b947e8df0fc7c7b.json"
+   },
+   "evidence": {
+    "leaf_index": 5,
+    "leaf_hash_b64": "K86zMIDido5rYok4qiQt8Vq0Z+lapV/vlQyiViGm+f0=",
+    "leaf_hash_rule": "SHA256(0x00 || entry_bytes), RFC 6962",
+    "exhibit_sha256": "9b947e8df0fc7c7b7e9b6269e6dd08feb8d2f41207fd13badf45cea7417b4a6f",
+    "exhibit_url": "https://anvil.yourarmor.ai/exhibits/9b947e8df0fc7c7b.json",
+    "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:2?format=json",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/10",
+    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)"
    },
    "note": "recomputed by the rendering layer from public inputs; re-run any cell yourself: https://anvil.yourarmor.ai/verify"
   }
@@ -3754,6 +3902,16 @@
     "tree_size": 10
    },
    {
+    "token": "checkpoint.20260724T123453Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T123453Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T123453Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T123453Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T123453Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-24T12:34:54Z",
+    "tree_size": 10
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -5612,16 +5770,26 @@
     "tsa": "digicert",
     "time_utc": "2026-07-24T12:17:02Z",
     "tree_size": 10
+   },
+   {
+    "token": "digicert/checkpoint.20260724T123454Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T123454Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T123454Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T123454Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T123454Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-24T12:34:55Z",
+    "tree_size": 10
    }
   ],
   "latest": {
-   "token": "checkpoint.20260724T121701Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T121701Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T121701Z",
-   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T121701Z.tsr",
-   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T121701Z",
-   "tsa": "freetsa.org",
-   "time_utc": "2026-07-24T12:17:02Z",
+   "token": "digicert/checkpoint.20260724T123454Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T123454Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T123454Z",
+   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T123454Z.tsr",
+   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T123454Z",
+   "tsa": "digicert",
+   "time_utc": "2026-07-24T12:34:55Z",
    "tree_size": 10
   },
   "first_by_tree_size": {
