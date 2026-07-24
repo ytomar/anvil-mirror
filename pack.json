@@ -1,13 +1,13 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-24T08:18:05Z",
+ "generated_at": "2026-07-24T09:03:10Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
   "checkpoint": "https://anvil.yourarmor.ai/log/v0/checkpoint",
   "vkey": "https://anvil.yourarmor.ai/log.vkey",
   "entry_bundles": [
-   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/5"
+   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/6"
   ],
   "verifier": "https://anvil.yourarmor.ai/verify.py",
   "witness_verifier": "https://anvil.yourarmor.ai/verify_witness.py",
@@ -19,9 +19,9 @@
   "mirror_base": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main"
  },
  "checkpoint": {
-  "raw": "anvil.yourarmor.ai/log/v0\n5\noCUWGHC2ZLQpwdkmwbQ478gkBhqNjUUGjNLfpVdFedM=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUdyMclf+PrG6VkD2Cuie6Mk1ujnitEZBo+CjT3qgJ27+VkoIKwc1a3odgd4D9ZLS7ItNgbRIjC/XHGqmzQi397gs=\n",
-  "tree_size": 5,
-  "root_b64": "oCUWGHC2ZLQpwdkmwbQ478gkBhqNjUUGjNLfpVdFedM="
+  "raw": "anvil.yourarmor.ai/log/v0\n6\nKDSJ6xxv9AaUy5OsIVCL8hkK9kVBTuxZrNlobUJD2DU=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUd2GcKc6QhIQEjR5Axr0ndfG9YDMt8bOLCMWTryhprvW7FGESo8oTK43bD94M6auxG8QejHZm2KRqVgy56w1BaAE=\n",
+  "tree_size": 6,
+  "root_b64": "KDSJ6xxv9AaUy5OsIVCL8hkK9kVBTuxZrNlobUJD2DU="
  },
  "verification": {
   "generation_gate": "pack.py refuses to render a tree that fails the reference checks; that is a property of the generator, not evidence. Re-run the checks yourself: https://anvil.yourarmor.ai/verify",
@@ -32,9 +32,9 @@
  "claimants": {
   "yogesh@anvil": {
    "registered_at_leaf": 0,
-   "entries": 3,
+   "entries": 4,
    "identity_type": "HUMAN",
-   "claims": 2,
+   "claims": 3,
    "public_key_b64": "JrXKMGMkW4DNT7ZX2yszlvh0hRl2+mvZnDYpVTG2nac="
   },
   "biswa@anvil": {
@@ -229,6 +229,58 @@
    },
    "sig_b64": "wkrnffHQBdkpO7k3WpiwRLFppS3nqpPWQnEegeDOzshc7oq89zAfio44ZET8lNhUnKVe7DQDo5s7ni1sB2ShBg==",
    "claim_id": "yogesh@anvil:1"
+  },
+  {
+   "leaf_index": 5,
+   "kind": "claim",
+   "claimant_id": "yogesh@anvil",
+   "leaf_hash_b64": "K86zMIDido5rYok4qiQt8Vq0Z+lapV/vlQyiViGm+f0=",
+   "body": {
+    "assertion": {
+     "as_of": "2026-07-23",
+     "baseline_date": "2026-02-20",
+     "benchmark_return_pct": -6.6268,
+     "gap_bps": 690.17,
+     "observations": 101,
+     "portfolio_return_pct": 0.2749,
+     "statement": "The series committed to by sha256 9b947e8df0fc7c7b7e9b6269e6dd08feb8d2f41207fd13badf45cea7417b4a6f records the IndexPlus live portfolio from 2026-02-20 (baseline) through 2026-07-23: portfolio +0.2749%, NIFTY 50 price index -6.6268% over the same dates \u2014 the portfolio LEADS the benchmark by 690.17 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would narrow the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.",
+     "type": "TRACK_RECORD_SNAPSHOT"
+    },
+    "claimant_context": {
+     "data_snapshot_hash_b64": "m5R+jfD8fHt+m2Jp5t0I/rjS9BIH/RO630XOp0F7Sm8="
+    },
+    "claimant_id": "yogesh@anvil",
+    "executed": true,
+    "horizon": "2026-07-31T09:02:49Z",
+    "kind": "claim",
+    "rationale": "Live track-record snapshot sealed as of today. Successor snapshot to claim yogesh@anvil:1 (same live portfolio, refreshed baseline 2026-02-20 and data through 2026-07-23); it does not replace or amend that claim \u2014 sealed entries are permanent. Exhibit: https://anvil.yourarmor.ai/exhibits/9b947e8df0fc7c7b.json",
+    "resolution_spec": {
+     "criterion": {
+      "grammar": "anvil-criterion/0",
+      "hit_if": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+      "miss_if": "Exhibit unavailable at exhibit_url, or sha256 differs, or any asserted number fails recomputation, or any exhibit benchmark close deviates from the official close beyond tolerance. Unavailability of OUR OWN exhibit is a MISS, not a void.",
+      "void_if": "No independent record of official NIFTY 50 closes is retrievable during the grading window."
+     },
+     "grading_window": "168h",
+     "oracle": {
+      "benchmark": "NIFTY 50",
+      "benchmark_basis": "last traded print of each session (NOT official NSE close)",
+      "benchmark_official_source": "NSE official closing values for NIFTY 50 (niftyindices.com historical data, or any independent record of official closes; api.ental.ai may be used only as a cross-check)",
+      "benchmark_tolerance_pct": 0.5,
+      "exhibit_sha256": "9b947e8df0fc7c7b7e9b6269e6dd08feb8d2f41207fd13badf45cea7417b4a6f",
+      "exhibit_url": "https://anvil.yourarmor.ai/exhibits/9b947e8df0fc7c7b.json",
+      "tolerance_purpose": "anti-fabrication bound, not a precision test: last-print vs official-close noise is a few bps; values invented after the fact would not track official closes this closely",
+      "type": "EXHIBIT_PLUS_NSE_CLOSE"
+     }
+    },
+    "seq": 2,
+    "subject": {
+     "id": "IndexPlus live portfolio (INR 10,000,000 base)",
+     "type": "RETURN_SERIES"
+    }
+   },
+   "sig_b64": "uoLJSiQvvrTPw07gAQ+20T0xVVFe46f5vruWSPiTtcJEy33gvlDcz3nRhRP7AbBGs/l5PafwMdcUnhxI2XXfCQ==",
+   "claim_id": "yogesh@anvil:2"
   }
  ],
  "claims": {
@@ -267,6 +319,18 @@
    "resolution_leaf": null,
    "verdict": null,
    "url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:1"
+  },
+  "yogesh@anvil:2": {
+   "claim_id": "yogesh@anvil:2",
+   "leaf_index": 5,
+   "leaf_hash_b64": "K86zMIDido5rYok4qiQt8Vq0Z+lapV/vlQyiViGm+f0=",
+   "claimant_id": "yogesh@anvil",
+   "horizon": "2026-07-31T09:02:49Z",
+   "grading_window": "168h",
+   "status": "PENDING",
+   "resolution_leaf": null,
+   "verdict": null,
+   "url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:2"
   }
  },
  "witness": {
@@ -2292,6 +2356,16 @@
     "tree_size": 5
    },
    {
+    "token": "checkpoint.20260724T090309Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T090309Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T090309Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T090309Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T090309Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-24T09:03:09Z",
+    "tree_size": 6
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -4070,17 +4144,27 @@
     "tsa": "digicert",
     "time_utc": "2026-07-24T08:18:05Z",
     "tree_size": 5
+   },
+   {
+    "token": "digicert/checkpoint.20260724T090309Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T090309Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T090309Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T090309Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T090309Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-24T09:03:10Z",
+    "tree_size": 6
    }
   ],
   "latest": {
-   "token": "digicert/checkpoint.20260724T081804Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T081804Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T081804Z",
-   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T081804Z.tsr",
-   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T081804Z",
+   "token": "digicert/checkpoint.20260724T090309Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T090309Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T090309Z",
+   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T090309Z.tsr",
+   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T090309Z",
    "tsa": "digicert",
-   "time_utc": "2026-07-24T08:18:05Z",
-   "tree_size": 5
+   "time_utc": "2026-07-24T09:03:10Z",
+   "tree_size": 6
   },
   "first_by_tree_size": {
    "2": {
@@ -4122,6 +4206,16 @@
     "tsa": "freetsa.org",
     "time_utc": "2026-07-17T11:50:44Z",
     "tree_size": 5
+   },
+   "6": {
+    "token": "checkpoint.20260724T090309Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T090309Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T090309Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T090309Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T090309Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-24T09:03:09Z",
+    "tree_size": 6
    }
   },
   "tsa_certs": [
