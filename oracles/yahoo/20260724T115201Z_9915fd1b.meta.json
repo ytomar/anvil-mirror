@@ -1,0 +1,9 @@
+{
+ "source": "yahoo",
+ "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history",
+ "fetched_at_utc": "20260724T115201Z",
+ "sha256": "9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c",
+ "bytes": 10332,
+ "raw_file": "oracles/yahoo/20260724T115201Z_9915fd1b.raw",
+ "note": "daily closes ^NSEI 2026-02-19..2026-07-17"
+}
