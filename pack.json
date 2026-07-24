@@ -1,13 +1,17 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-24T09:17:02Z",
+ "generated_at": "2026-07-24T10:01:59Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
   "checkpoint": "https://anvil.yourarmor.ai/log/v0/checkpoint",
   "vkey": "https://anvil.yourarmor.ai/log.vkey",
+  "pack_versioned": "https://anvil.yourarmor.ai/pack/7.json",
   "entry_bundles": [
-   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/6"
+   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/7"
+  ],
+  "mirror_entry_bundles": [
+   "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/log/tile/entries/000.p/7"
   ],
   "verifier": "https://anvil.yourarmor.ai/verify.py",
   "witness_verifier": "https://anvil.yourarmor.ai/verify_witness.py",
@@ -19,9 +23,9 @@
   "mirror_base": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main"
  },
  "checkpoint": {
-  "raw": "anvil.yourarmor.ai/log/v0\n6\nKDSJ6xxv9AaUy5OsIVCL8hkK9kVBTuxZrNlobUJD2DU=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUd2GcKc6QhIQEjR5Axr0ndfG9YDMt8bOLCMWTryhprvW7FGESo8oTK43bD94M6auxG8QejHZm2KRqVgy56w1BaAE=\n",
-  "tree_size": 6,
-  "root_b64": "KDSJ6xxv9AaUy5OsIVCL8hkK9kVBTuxZrNlobUJD2DU="
+  "raw": "anvil.yourarmor.ai/log/v0\n7\njaSKQhXAExRUKeLjjDypuNyldXtmb7zWlPB4/YgbNPA=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUd4LU768FHCMiQTNA0h8gKzPYwo7QE/YfYtH241bK5KMtsZT2KxzU27lJgvWemKTZjo3tIIFGdkyPzm9dawAlQA8=\n",
+  "tree_size": 7,
+  "root_b64": "jaSKQhXAExRUKeLjjDypuNyldXtmb7zWlPB4/YgbNPA="
  },
  "verification": {
   "generation_gate": "pack.py refuses to render a tree that fails the reference checks; that is a property of the generator, not evidence. Re-run the checks yourself: https://anvil.yourarmor.ai/verify",
@@ -43,6 +47,13 @@
    "identity_type": "HUMAN",
    "claims": 1,
    "public_key_b64": "PTInsdqrGouPpdjSiYALdGt+IsilXgffv8000rlOBpM="
+  },
+  "reckoner+0.1@anvil": {
+   "registered_at_leaf": 6,
+   "entries": 1,
+   "identity_type": "ENGINE",
+   "claims": 0,
+   "public_key_b64": "qyVktD/oWhdB8aDBRdOvP46NPh50fPFCqtFCVQfTjJc="
   }
  },
  "entries": [
@@ -281,6 +292,20 @@
    },
    "sig_b64": "uoLJSiQvvrTPw07gAQ+20T0xVVFe46f5vruWSPiTtcJEy33gvlDcz3nRhRP7AbBGs/l5PafwMdcUnhxI2XXfCQ==",
    "claim_id": "yogesh@anvil:2"
+  },
+  {
+   "leaf_index": 6,
+   "kind": "claimant_registration",
+   "claimant_id": "reckoner+0.1@anvil",
+   "leaf_hash_b64": "aL+NP1tLqP8AgoSR6fFiya44Q6oIpZ4LchINEAYxtEw=",
+   "body": {
+    "kind": "claimant_registration",
+    "claimant_id": "reckoner+0.1@anvil",
+    "identity_type": "ENGINE",
+    "version": "0.1",
+    "public_key_b64": "qyVktD/oWhdB8aDBRdOvP46NPh50fPFCqtFCVQfTjJc="
+   },
+   "sig_b64": "DqAb9Oq6J6HDwRK0Pd/enX4swjgyoZAXort+Y2Qr7Ygj2c3zZfRBle4oJqu7FOUxxH9yIdnBtFySVrPLJTM0Bg=="
   }
  ],
  "claims": {
@@ -2376,6 +2401,16 @@
     "tree_size": 6
    },
    {
+    "token": "checkpoint.20260724T100158Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-24T10:01:59Z",
+    "tree_size": 7
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -4174,17 +4209,27 @@
     "tsa": "digicert",
     "time_utc": "2026-07-24T09:17:02Z",
     "tree_size": 6
+   },
+   {
+    "token": "digicert/checkpoint.20260724T100159Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T100159Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T100159Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T100159Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T100159Z",
+    "tsa": "digicert",
+    "time_utc": "2026-07-24T10:01:59Z",
+    "tree_size": 7
    }
   ],
   "latest": {
-   "token": "digicert/checkpoint.20260724T091702Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T091702Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260724T091702Z",
-   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T091702Z.tsr",
-   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260724T091702Z",
-   "tsa": "digicert",
-   "time_utc": "2026-07-24T09:17:02Z",
-   "tree_size": 6
+   "token": "checkpoint.20260724T100158Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z",
+   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z.tsr",
+   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z",
+   "tsa": "freetsa.org",
+   "time_utc": "2026-07-24T10:01:59Z",
+   "tree_size": 7
   },
   "first_by_tree_size": {
    "2": {
@@ -4236,6 +4281,16 @@
     "tsa": "freetsa.org",
     "time_utc": "2026-07-24T09:03:09Z",
     "tree_size": 6
+   },
+   "7": {
+    "token": "checkpoint.20260724T100158Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260724T100158Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260724T100158Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-07-24T10:01:59Z",
+    "tree_size": 7
    }
   },
   "tsa_certs": [
@@ -4335,6 +4390,18 @@
    "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090737Z_de1d670b.raw"
+  },
+  {
+   "source": "yahoo",
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history",
+   "fetched_at_utc": "20260724T094157Z",
+   "sha256": "8dd37b4390c2717dacba8d6fdf1234365948a8fde5c36687604d33df83dd6ae5",
+   "bytes": 10331,
+   "raw_file": "oracles/yahoo/20260724T094157Z_8dd37b43.raw",
+   "note": "daily closes ^NSEI 2026-02-19..2026-07-17",
+   "independence": "independent public source",
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/yahoo/20260724T094157Z_8dd37b43.raw"
   }
  ]
 }
