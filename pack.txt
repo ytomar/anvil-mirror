@@ -39,4 +39,4 @@ Claim status counts: {"HIT": 3, "PENDING": 1}
 What failure would look like: an edited entry breaks the Merkle root; a deleted
 entry breaks per-claimant seq density; a backdated entry contradicts the RFC 3161
 timestamps. None of these can be hidden from the verifier at https://anvil.yourarmor.ai/verify.py.
-generated_at: 2026-07-26T05:17:03Z
+generated_at: 2026-07-26T06:08:13Z

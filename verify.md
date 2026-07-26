@@ -1,7 +1,7 @@
 # How to audit the Anvil log (machine-readable edition)
 
 Current tree size: **10** · root `VD6iTzPeD9AyEaB99eDqGqI8LTCjRmA/3vj4deODbSQ=` · origin `anvil.yourarmor.ai/log/v0`
-Generated 2026-07-26T05:17:03Z. HTML twin: https://anvil.yourarmor.ai/verify
+Generated 2026-07-26T06:08:13Z. HTML twin: https://anvil.yourarmor.ai/verify
 
 You are invited to be adversarial. Everything below is executable without
 permission from the operator.
@@ -83,9 +83,10 @@ certify exactly what the grader saw.
 ## 6. Identity (report as "anchored", never "proven")
 
 The log binds keys to claimant IDs. Out-of-log anchors you can fetch:
-- Wayback history of the board: https://web.archive.org/web/2026*/anvil.yourarmor.ai/
+- Wayback history of the home page: https://web.archive.org/web/2026*/anvil.yourarmor.ai/
 - Mirror commit history: https://github.com/ytomar/anvil-mirror/commits/main
-- Profiles: https://anvil.yourarmor.ai/founders
+- Claimants (profiles + in-log identity anchors): https://anvil.yourarmor.ai/claimants
+- Claims index (cross-check matrix): https://anvil.yourarmor.ai/claims
 
 ## 7. Reporting format
 

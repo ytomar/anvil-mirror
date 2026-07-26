@@ -1,6 +1,6 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-07-26T05:17:03Z",
+ "generated_at": "2026-07-26T06:08:13Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
@@ -57,35 +57,46 @@
   }
  },
  "profiles": {
-  "yogesh@anvil": {
-   "name": "Yogesh Tomar",
-   "role": "Co-founder, Armor",
-   "bio": "Close to two decades building quant strategies and trustworthy systems; built and managed $100M+ portfolios at Nomura and New York hedge funds. Based in Bengaluru.",
-   "links": [
-    {
-     "label": "LinkedIn",
-     "url": "https://www.linkedin.com/in/ytomar/"
-    },
-    {
-     "label": "Armor",
-     "url": "https://yourarmor.ai"
-    }
-   ]
+  "orgs": {
+   "armor": {
+    "name": "Armor",
+    "url": "https://yourarmor.ai",
+    "blurb": "Armor operates this log and is its first claimant organization. Its founders sealed the log's first entries and stake their public track record here \u2014 misses as permanent as hits."
+   }
   },
-  "biswa@anvil": {
-   "name": "Biswanath Patel",
-   "role": "Co-founder, Armor",
-   "bio": "Quant researcher and portfolio manager; built systematic strategies and managed $100M+ portfolios at Nomura and top New York hedge funds.",
-   "links": [
-    {
-     "label": "LinkedIn",
-     "url": "https://www.linkedin.com/in/biswapatel/"
-    },
-    {
-     "label": "Armor",
-     "url": "https://yourarmor.ai"
-    }
-   ]
+  "people": {
+   "yogesh@anvil": {
+    "name": "Yogesh Tomar",
+    "role": "Co-founder, Armor",
+    "org": "armor",
+    "bio": "Close to two decades building quant strategies and trustworthy systems; built and managed $100M+ portfolios at Nomura and New York hedge funds. Based in Bengaluru.",
+    "links": [
+     {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ytomar/"
+     },
+     {
+      "label": "Armor",
+      "url": "https://yourarmor.ai"
+     }
+    ]
+   },
+   "biswa@anvil": {
+    "name": "Biswanath Patel",
+    "role": "Co-founder, Armor",
+    "org": "armor",
+    "bio": "Quant researcher and portfolio manager; built systematic strategies and managed $100M+ portfolios at Nomura and top New York hedge funds.",
+    "links": [
+     {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/biswapatel/"
+     },
+     {
+      "label": "Armor",
+      "url": "https://yourarmor.ai"
+     }
+    ]
+   }
   }
  },
  "public_verification": {
@@ -6718,7 +6729,7 @@
    "bytes": 2712,
    "raw_file": "oracles/ental/20260717T090202Z_03f88e40.raw",
    "note": "log returns MF_INF044D01CQ5 (Taurus Nifty 50 Index Fund - Direct Plan - Growth) 2026-06-01..2026-07-15",
-   "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
+   "independence": "affiliated with the log's operator and claimant organization (Armor) \u2014 disclosed; cross-check only, never sole referee",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090202Z_03f88e40.raw"
   },
@@ -6754,7 +6765,7 @@
    "bytes": 79345,
    "raw_file": "oracles/ental/20260717T090735Z_ddcf3481.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2017-01-01..2020-12-31",
-   "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
+   "independence": "affiliated with the log's operator and claimant organization (Armor) \u2014 disclosed; cross-check only, never sole referee",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090735Z_ddcf3481.raw"
   },
@@ -6766,7 +6777,7 @@
    "bytes": 79193,
    "raw_file": "oracles/ental/20260717T090736Z_c1cb7162.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2021-01-01..2024-12-31",
-   "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
+   "independence": "affiliated with the log's operator and claimant organization (Armor) \u2014 disclosed; cross-check only, never sole referee",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090736Z_c1cb7162.raw"
   },
@@ -6778,7 +6789,7 @@
    "bytes": 30590,
    "raw_file": "oracles/ental/20260717T090737Z_de1d670b.raw",
    "note": "log returns MF_INF789F01XA0 (UTI Nifty 50 (ental cross-check)) 2025-01-01..2026-07-17",
-   "independence": "self-affiliated (Armor infrastructure \u2014 cross-check only, never sole referee)",
+   "independence": "affiliated with the log's operator and claimant organization (Armor) \u2014 disclosed; cross-check only, never sole referee",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/ental/20260717T090737Z_de1d670b.raw"
   },

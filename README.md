@@ -1,7 +1,8 @@
 # Anvil log mirror
 
 Read-only mirror of the [Anvil transparency log](https://anvil.yourarmor.ai) —
-Armor's append-only, externally witnessed record of falsifiable claims.
+an append-only, externally witnessed public record of falsifiable financial
+claims, operated by Armor (also its first claimant organization).
 Updated hourly. **The log's own domain is authoritative**; this mirror exists so
 sandboxed auditors (e.g. AI agents that can only reach raw.githubusercontent.com)
 can run the full cryptographic audit. A divergent mirror is detectable: every
