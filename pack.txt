@@ -2,16 +2,16 @@ ANVIL — append-only, externally witnessed log of falsifiable claims
 origin: anvil.yourarmor.ai/log/v0   (this file is RENDERED from the log; the log is ground truth)
 verify it yourself: https://anvil.yourarmor.ai/verify
 
-Checkpoint: tree size 12, root QCIwd73p+W+36xO0+Bf795BRWNFYrm/ZawsVb+QAho4=
-Last external witness (RFC 3161, freetsa.org): 2026-08-21T15:17:02Z covering tree size 12
+Checkpoint: tree size 14, root psiO32xlXvGcegIx/2On0/17wJAablLg2CK0H2J5tDg=
+Last external witness (RFC 3161, freetsa.org): 2026-08-21T15:21:15Z covering tree size 14
 This rendering was generated only after the reference checks passed — a property of the generator, not evidence. Entry-level problems recorded: 0. Re-run the checks yourself: https://anvil.yourarmor.ai/verify
 
 Claimants (3):
   biswa@anvil — HUMAN, registered at leaf 1, 2 entries (1 claims)
-  reckoner+0.1@anvil — ENGINE, registered at leaf 6, 5 entries (0 claims)
-  yogesh@anvil — HUMAN, registered at leaf 0, 5 entries (4 claims)
+  reckoner+0.1@anvil — ENGINE, registered at leaf 6, 6 entries (0 claims)
+  yogesh@anvil — HUMAN, registered at leaf 0, 6 entries (5 claims)
 
-Entries (12) — every entry, in leaf order; misses are as permanent as hits:
+Entries (14) — every entry, in leaf order; misses are as permanent as hits:
   leaf 0: REGISTRATION of yogesh@anvil
   leaf 1: REGISTRATION of biswa@anvil
   leaf 2: CLAIM yogesh@anvil:0 [HIT] subject={"id":"IndexPlus live portfolio (INR 50,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-07-17","baseline_date":"2026-04-28","benchmark_return_pct":1.3749,"gap_bps":-15.63,"observations":56,"portfolio_return_pct":1.2186,"statement":"The series committed to by sha256 e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218 records the IndexPlus live portfolio from 2026-04-28 (baseline) through 2026-07-17: portfolio +1.2186%, NIFTY 50 price index +1.3749% over the same dates \u2014 the portfolio TRAILS the benchmark by 15.63 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would widen the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-07-24T11:22:00Z
@@ -33,15 +33,20 @@ Entries (12) — every entry, in leaf order; misses are as permanent as hits:
            graded against https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history; oracle snapshot sha256=9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c raw=https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw; worst deviation 0.2614% (tolerance 0.5%)
   leaf 9: RESOLUTION of yogesh@anvil:1 -> HIT (sealed by reckoner+0.1@anvil)
            graded against https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771200000&period2=1784505600&interval=1d&events=history; oracle snapshot sha256=9915fd1b9963f7412ee97276b40a2d368f17eb07369ee287e037fa40c2aed71c raw=https://anvil.yourarmor.ai/oracles/yahoo/20260724T115201Z_9915fd1b.raw; worst deviation 0.3726% (tolerance 0.5%)
-  leaf 10: CLAIM yogesh@anvil:3 [PENDING] subject={"id":"IndexPlus live portfolio (INR 10,000,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-08-11","baseline_date":"2026-02-20","benchmark_return_pct":-4.2799,"gap_bps":835.3,"observations":114,"portfolio_return_pct":4.0731,"statement":"The series committed to by sha256 65993efae59d1738fe697f48e45003405a75731797ea9555c106c86f653fa082 records the IndexPlus live portfolio from 2026-02-20 (baseline) through 2026-08-11: portfolio +4.0731%, NIFTY 50 price index -4.2799% over the same dates \u2014 the portfolio LEADS the benchmark by 835.30 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would narrow the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-08-19T15:03:40Z
+  leaf 10: CLAIM yogesh@anvil:3 [HIT] subject={"id":"IndexPlus live portfolio (INR 10,000,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-08-11","baseline_date":"2026-02-20","benchmark_return_pct":-4.2799,"gap_bps":835.3,"observations":114,"portfolio_return_pct":4.0731,"statement":"The series committed to by sha256 65993efae59d1738fe697f48e45003405a75731797ea9555c106c86f653fa082 records the IndexPlus live portfolio from 2026-02-20 (baseline) through 2026-08-11: portfolio +4.0731%, NIFTY 50 price index -4.2799% over the same dates \u2014 the portfolio LEADS the benchmark by 835.30 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would narrow the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-08-19T15:03:40Z
            self-provable: leaf_hash(SHA256(0x00||entry))=a8jKR3Co9CNr+sG/Rcqhj63LNQVcj1nK23+Lh8krVFc= exhibit_sha256=65993efae59d1738fe697f48e45003405a75731797ea9555c106c86f653fa082
            detail: https://anvil.yourarmor.ai/claims/yogesh@anvil:3 (add ?format=json for the raw entry)
   leaf 11: RESOLUTION of yogesh@anvil:2 -> HIT (sealed by reckoner+0.1@anvil)
            graded against https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1785024000&interval=1d&events=history; oracle snapshot sha256=ff690cbd3c0813ed963a8ea34b482b1785ac14930e41dbc9d73e39ef878ac95e raw=https://anvil.yourarmor.ai/oracles/yahoo/20260812T150418Z_ff690cbd.raw; worst deviation 0.3726% (tolerance 0.5%)
+  leaf 12: RESOLUTION of yogesh@anvil:3 -> HIT (sealed by reckoner+0.1@anvil)
+           graded against https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1786665600&interval=1d&events=history; oracle snapshot sha256=83e3d4aa80db1cb5526f3b2080ad02c1de951b37fbc212d98efc1d90e30534c2 raw=https://anvil.yourarmor.ai/oracles/yahoo/20260821T151615Z_83e3d4aa.raw; worst deviation 0.3726% (tolerance 0.5%)
+  leaf 13: CLAIM yogesh@anvil:4 [PENDING] subject={"id":"IndexPlus live portfolio (INR 10,000,000 base)","type":"RETURN_SERIES"} assertion={"as_of":"2026-08-21","baseline_date":"2026-02-20","benchmark_return_pct":-5.1393,"gap_bps":984.31,"observations":122,"portfolio_return_pct":4.7038,"statement":"The series committed to by sha256 a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd records the IndexPlus live portfolio from 2026-02-20 (baseline) through 2026-08-21: portfolio +4.7038%, NIFTY 50 price index -5.1393% over the same dates \u2014 the portfolio LEADS the benchmark by 984.31 bps as of sealing. Basis disclosures: the benchmark is the price index (excludes dividends; total-return would narrow the gap), and its values are the last traded prints of each session, not official NSE closes. Sealed now so that no later telling of this record can improve on what the data said today.","type":"TRACK_RECORD_SNAPSHOT"} horizon=2026-08-28T15:20:50Z
+           self-provable: leaf_hash(SHA256(0x00||entry))=R3Ot0qJuAeDyB7y6s6S+BMia8CBTxz/KDHo6Ief03UY= exhibit_sha256=a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd
+           detail: https://anvil.yourarmor.ai/claims/yogesh@anvil:4 (add ?format=json for the raw entry)
 
-Claim status counts: {"HIT": 4, "PENDING": 1}
+Claim status counts: {"HIT": 5, "PENDING": 1}
 
 What failure would look like: an edited entry breaks the Merkle root; a deleted
 entry breaks per-claimant seq density; a backdated entry contradicts the RFC 3161
 timestamps. None of these can be hidden from the verifier at https://anvil.yourarmor.ai/verify.py.
-generated_at: 2026-08-21T15:17:02Z
+generated_at: 2026-08-21T15:35:34Z
