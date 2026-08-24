@@ -86,12 +86,70 @@ def token_facts(tsr_bytes):
     return imprint, gen_time
 
 
+def _der_tlv(buf, i=0):
+    """Parse exactly one TLV at offset i; return (tag, content, next_i) or None.
+
+    Positional, unlike _der_walk's recursive scan — reading PKIStatus requires
+    knowing an INTEGER is the *first* element of the *first* SEQUENCE, and a
+    flat scan cannot tell that apart from the many INTEGERs inside a real token.
+    """
+    if i + 2 > len(buf):
+        return None
+    tag = buf[i]
+    length = buf[i + 1]
+    j = i + 2
+    if length & 0x80:
+        n = length & 0x7F
+        if n == 0 or j + n > len(buf):
+            return None
+        length = int.from_bytes(buf[j:j + n], "big")
+        j += n
+    if j + length > len(buf):
+        return None
+    return tag, buf[j:j + length], j + length
+
+
+def reply_status(tsr_bytes):
+    """PKIStatus of a TimeStampResp: (status_int, description), else (None, None).
+
+        TimeStampResp ::= SEQUENCE { status PKIStatusInfo, timeStampToken OPTIONAL }
+        PKIStatusInfo ::= SEQUENCE { status INTEGER, statusString PKIFreeText OPT, ... }
+
+    0 granted / 1 grantedWithMods; >= 2 means the TSA *declined* — there is no
+    token inside and nothing to verify. Distinguishing that from a corrupt token
+    matters: a rejection is the TSA having a bad minute, a corrupt token would
+    mean the bytes we published went bad.
+    """
+    outer = _der_tlv(tsr_bytes)
+    if not outer or outer[0] != 0x30:
+        return None, None
+    info = _der_tlv(outer[1])
+    if not info or info[0] != 0x30:
+        return None, None
+    st = _der_tlv(info[1])
+    if not st or st[0] != 0x02:
+        return None, None
+    status = int.from_bytes(st[1], "big")
+    desc = None
+    nxt = _der_tlv(info[1], st[2])
+    if nxt and nxt[0] == 0x30:
+        s = _der_tlv(nxt[1])
+        if s and s[0] == 0x0C:  # UTF8String
+            desc = s[1].decode("utf-8", "replace").strip()
+    return status, desc
+
+
 def check_pair(cp_path, tsr_path, cafile=None, untrusted=None):
     cp_bytes = Path(cp_path).read_bytes()
     tsr = Path(tsr_path).read_bytes()
     want = hashlib.sha256(cp_bytes).hexdigest()
     imprint, gen_time = token_facts(tsr)
     if imprint is None:
+        status, desc = reply_status(tsr)
+        if status is not None and status >= 2:
+            return "rejected", ("TSA declined to issue a token (PKIStatus %d%s) — "
+                                "no witness from this TSA for this minute"
+                                % (status, ": %s" % desc if desc else ""))
         return False, "could not parse messageImprint"
     if imprint != want:
         return False, ("IMPRINT MISMATCH: token commits to %s..., checkpoint bytes "
@@ -136,13 +194,25 @@ def main():
         ap.error("--witness-dir or (--checkpoint and --token) required")
 
     failed = 0
+    rejected = 0
     for cp, tsr, ca, crt in pairs:
         ok, msg = check_pair(cp, tsr, ca, crt)
-        print("%s %s: %s" % ("OK  " if ok else "FAIL", Path(tsr).name, msg))
-        failed += not ok
+        # Three outcomes, not two: a TSA rejection is not a verification failure.
+        # Counting it as one makes the summary cry tampering over a bad minute
+        # at the TSA, and a verifier that cries wolf stops being read.
+        label = {True: "OK  ", "rejected": "SKIP"}.get(ok, "FAIL")
+        print("%s %s: %s" % (label, Path(tsr).name, msg))
+        if ok is True:
+            continue
+        if ok == "rejected":
+            rejected += 1
+        else:
+            failed += 1
+    tail = " (%d TSA rejection(s) skipped)" % rejected if rejected else ""
     if failed:
-        raise SystemExit("FAIL: %d token(s) failed" % failed)
-    print("all %d token(s) commit to their checkpoint bytes" % len(pairs))
+        raise SystemExit("FAIL: %d token(s) failed%s" % (failed, tail))
+    print("all %d token(s) commit to their checkpoint bytes%s"
+          % (len(pairs) - rejected, tail))
 
 
 if __name__ == "__main__":
