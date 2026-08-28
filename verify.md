@@ -1,7 +1,7 @@
 # How to audit the Anvil log (machine-readable edition)
 
-Current tree size: **14** · root `psiO32xlXvGcegIx/2On0/17wJAablLg2CK0H2J5tDg=` · origin `anvil.yourarmor.ai/log/v0`
-Generated 2026-08-28T15:17:03Z. HTML twin: https://anvil.yourarmor.ai/verify
+Current tree size: **15** · root `srQc4Am1wB8Y4IlhRALUJVyCCS4U7cgFALTfy85CONU=` · origin `anvil.yourarmor.ai/log/v0`
+Generated 2026-08-28T16:05:14Z. HTML twin: https://anvil.yourarmor.ai/verify
 
 You are invited to be adversarial. Everything below is executable without
 permission from the operator.
@@ -28,7 +28,7 @@ permission from the operator.
 ## 2. Crypto-audit (write your own verifier — do not trust ours)
 
 Entry bundles (repeated `[uint16-BE length][entry bytes]`, leaves in order):
-- https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14 (mirror: https://raw.githubusercontent.com/ytomar/anvil-mirror/main/log/tile/entries/000.p/14)
+- https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15 (mirror: https://raw.githubusercontent.com/ytomar/anvil-mirror/main/log/tile/entries/000.p/15)
 
 - vkey (https://anvil.yourarmor.ai/log.vkey): format `name+hash+base64(0x01 || 32-byte Ed25519 key)`.
 - Checkpoint signature: message = checkpoint text through the blank line
@@ -74,6 +74,7 @@ strict-prefix, i.e. nothing edited or deleted):
 - size 12: witnessed 2026-08-12T15:04:49Z (freetsa.org) — token https://anvil.yourarmor.ai/witness/checkpoint.20260812T150449Z.tsr, checkpoint bytes https://anvil.yourarmor.ai/witness/checkpoint.20260812T150449Z
 - size 13: witnessed 2026-08-21T15:17:01Z (freetsa.org) — token https://anvil.yourarmor.ai/witness/checkpoint.20260821T151701Z.tsr, checkpoint bytes https://anvil.yourarmor.ai/witness/checkpoint.20260821T151701Z
 - size 14: witnessed 2026-08-21T15:21:15Z (freetsa.org) — token https://anvil.yourarmor.ai/witness/checkpoint.20260821T152114Z.tsr, checkpoint bytes https://anvil.yourarmor.ai/witness/checkpoint.20260821T152114Z
+- size 15: witnessed 2026-08-28T16:05:13Z (freetsa.org) — token https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z.tsr, checkpoint bytes https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z
 
 ## 5. Independent benchmark
 

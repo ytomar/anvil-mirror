@@ -1,17 +1,17 @@
 {
  "derivation": "rendered from anvil.yourarmor.ai/log/v0; the log is ground truth. Do not trust this file \u2014 verify it: instructions at https://anvil.yourarmor.ai/verify",
- "generated_at": "2026-08-28T15:17:03Z",
+ "generated_at": "2026-08-28T16:05:14Z",
  "origin": "anvil.yourarmor.ai/log/v0",
  "public_base": "https://anvil.yourarmor.ai",
  "urls": {
   "checkpoint": "https://anvil.yourarmor.ai/log/v0/checkpoint",
   "vkey": "https://anvil.yourarmor.ai/log.vkey",
-  "pack_versioned": "https://anvil.yourarmor.ai/pack/14.json",
+  "pack_versioned": "https://anvil.yourarmor.ai/pack/15.json",
   "entry_bundles": [
-   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14"
+   "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15"
   ],
   "mirror_entry_bundles": [
-   "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/log/tile/entries/000.p/14"
+   "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/log/tile/entries/000.p/15"
   ],
   "verifier": "https://anvil.yourarmor.ai/verify.py",
   "witness_verifier": "https://anvil.yourarmor.ai/verify_witness.py",
@@ -23,9 +23,9 @@
   "mirror_base": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main"
  },
  "checkpoint": {
-  "raw": "anvil.yourarmor.ai/log/v0\n14\npsiO32xlXvGcegIx/2On0/17wJAablLg2CK0H2J5tDg=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUd+J1OKu2Xb/sS8Y5tgmGE4d8Qrp14t+FgDZBWaBPae7eeMBHEi9kAOl59ZoOtm5f6bfNH+oiDPX1ijUI5zVMdg8=\n",
-  "tree_size": 14,
-  "root_b64": "psiO32xlXvGcegIx/2On0/17wJAablLg2CK0H2J5tDg="
+  "raw": "anvil.yourarmor.ai/log/v0\n15\nsrQc4Am1wB8Y4IlhRALUJVyCCS4U7cgFALTfy85CONU=\n\n\u2014 anvil.yourarmor.ai/log/v0 q4eUdwD7MhNiLxPcLlBPJMpom4mjigLu7O3KiMHiDsrKd0Sg5gRjMA1ki++jht3juhTtF2s5vIzj0QYeWP8fGcipNQ0=\n",
+  "tree_size": 15,
+  "root_b64": "srQc4Am1wB8Y4IlhRALUJVyCCS4U7cgFALTfy85CONU="
  },
  "verification": {
   "generation_gate": "pack.py refuses to render a tree that fails the reference checks; that is a property of the generator, not evidence. Re-run the checks yourself: https://anvil.yourarmor.ai/verify",
@@ -50,7 +50,7 @@
   },
   "reckoner+0.1@anvil": {
    "registered_at_leaf": 6,
-   "entries": 6,
+   "entries": 7,
    "identity_type": "ENGINE",
    "claims": 0,
    "public_key_b64": "qyVktD/oWhdB8aDBRdOvP46NPh50fPFCqtFCVQfTjJc="
@@ -314,7 +314,7 @@
     "exhibit_sha256": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:0?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
     "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
     "resolution_leaf": 7,
     "resolution_oracle_reading": {
@@ -569,7 +569,7 @@
     "exhibit_sha256": "e633976af5f42f91f39883bb74b512882fb5085bda63457c034999693ccda218",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/e633976af5f42f91.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/biswa@anvil:0?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
     "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
     "resolution_leaf": 8,
     "resolution_oracle_reading": {
@@ -950,7 +950,7 @@
     "exhibit_sha256": "5e2e68efc653c068dae082ded796e3c8fc18b1055966e0a06f2141dd90dae03e",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/5e2e68efc653c068.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:1?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
     "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
     "resolution_leaf": 9,
     "resolution_oracle_reading": {
@@ -1340,7 +1340,7 @@
     "exhibit_sha256": "9b947e8df0fc7c7b7e9b6269e6dd08feb8d2f41207fd13badf45cea7417b4a6f",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/9b947e8df0fc7c7b.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:2?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
     "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
     "resolution_leaf": 11,
     "resolution_oracle_reading": {
@@ -1769,7 +1769,7 @@
     "exhibit_sha256": "65993efae59d1738fe697f48e45003405a75731797ea9555c106c86f653fa082",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/65993efae59d1738.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:3?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
     "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
     "resolution_leaf": 12,
     "resolution_oracle_reading": {
@@ -1812,7 +1812,7 @@
   },
   "yogesh@anvil:4": {
    "claim_id": "yogesh@anvil:4",
-   "status": "PENDING",
+   "status": "HIT",
    "checks": [
     {
      "key": "sealed_before_outcome",
@@ -1836,7 +1836,7 @@
      "key": "benchmark_public",
      "label": "Benchmark values match the public record",
      "pass": true,
-     "detail": "every session's value within 0.50% of the public record (Yahoo ^NSEI closes; worst 0.3726% on 2026-03-19); recomputed at generation time"
+     "detail": "graded HIT by sealed resolution (leaf 14): every session within 0.5% of the independent record (https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1787529600&interval=1d&events=history); worst deviation 0.3726% on 2026-03-19; oracle snapshot sha256 91a6a52af590def1df13763a7d81a6d7a824d303ea07a3ad321595034e7abd6e, raw bytes at https://anvil.yourarmor.ai/oracles/yahoo/20260828T160502Z_91a6a52a.raw"
     }
    ],
    "series": {
@@ -2222,8 +2222,45 @@
     "exhibit_sha256": "a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd",
     "exhibit_url": "https://anvil.yourarmor.ai/exhibits/a3243c69115f6a3c.json",
     "claim_json_url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:4?format=json",
-    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/14",
-    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)"
+    "entry_bundle_url": "https://anvil.yourarmor.ai/log/v0/tile/entries/000.p/15",
+    "root_recompute": "https://anvil.yourarmor.ai/verify (instrument 2a, ~15 lines of stdlib)",
+    "resolution_leaf": 14,
+    "resolution_oracle_reading": {
+     "asserted": {
+      "benchmark_return_pct": -5.1393,
+      "gap_bps": 984.31,
+      "observations": 122,
+      "portfolio_return_pct": 4.7038
+     },
+     "criterion_executed": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+     "exhibit_sha256_observed": "a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd",
+     "exhibit_sha256_sealed": "a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd",
+     "exhibit_url_fetched": "https://anvil.yourarmor.ai/exhibits/a3243c69115f6a3c.json",
+     "graded_at_utc": "2026-08-28T16:05:01Z",
+     "grading_deadline_utc": "2026-09-04T15:20:50Z",
+     "official_snapshot": {
+      "raw_file": "oracles/yahoo/20260828T160502Z_91a6a52a.raw",
+      "sha256": "91a6a52af590def1df13763a7d81a6d7a824d303ea07a3ad321595034e7abd6e",
+      "url": "https://anvil.yourarmor.ai/oracles/yahoo/20260828T160502Z_91a6a52a.raw"
+     },
+     "official_source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1787529600&interval=1d&events=history",
+     "official_source_fallback_note": "niftyindices.com not usable at grading time: niftyindices fetch failed for 'NIFTY 50' (Expecting value: line 1 column 2 (char 1)). The site is browser-gated; either download the TRI CSV manually and snapshot it, or use the ental adapter (search 'NIFTY 50 TRI') for the same series.",
+     "official_source_kind": "independent record of official NIFTY 50 closes (Yahoo Finance ^NSEI daily close, IST session dates)",
+     "recomputed": {
+      "benchmark_return_pct": -5.1393,
+      "gap_bps": 984.31,
+      "observations": 122,
+      "portfolio_return_pct": 4.7038
+     },
+     "tolerance_check": {
+      "dates_checked": 122,
+      "max_abs_deviation_pct": 0.3726,
+      "official_close_on_worst_date": 23002.150390625,
+      "tolerance_pct": 0.5,
+      "worst_date": "2026-03-19"
+     },
+     "verdict_basis": "all three hit_if legs pass"
+    }
    },
    "note": "recomputed by the rendering layer from public inputs; re-run any cell yourself: https://anvil.yourarmor.ai/verify"
   }
@@ -2852,6 +2889,61 @@
    },
    "sig_b64": "mKyhEU0sthdk6ubnAIFbXcE8cZv0ogdv2WIt10HnTHgVp58MQl3yx2cI2Irrc2e3e4RoG3Mkv9oBvtBSG7vaBw==",
    "claim_id": "yogesh@anvil:4"
+  },
+  {
+   "leaf_index": 14,
+   "kind": "resolution",
+   "claimant_id": "reckoner+0.1@anvil",
+   "leaf_hash_b64": "I3fFRfTClrBf2v+HsCITgZ0So1D1t4gFIId/kgXtadU=",
+   "body": {
+    "claim_ref": {
+     "claim_id": "yogesh@anvil:4",
+     "leaf_hash_b64": "R3Ot0qJuAeDyB7y6s6S+BMia8CBTxz/KDHo6Ief03UY=",
+     "leaf_index": 13
+    },
+    "claimant_id": "reckoner+0.1@anvil",
+    "kind": "resolution",
+    "oracle_reading": {
+     "asserted": {
+      "benchmark_return_pct": -5.1393,
+      "gap_bps": 984.31,
+      "observations": 122,
+      "portfolio_return_pct": 4.7038
+     },
+     "criterion_executed": "At horizon: (1) the exhibit fetched from exhibit_url hashes to exhibit_sha256; (2) its portfolio/benchmark arrays reproduce the asserted portfolio_return_pct, benchmark_return_pct and gap_bps exactly; (3) every benchmark value (a last print, per oracle.benchmark_basis) sits within benchmark_tolerance_pct of the official NIFTY 50 close for its date.",
+     "exhibit_sha256_observed": "a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd",
+     "exhibit_sha256_sealed": "a3243c69115f6a3c6bb01a2b7f85bae337be8ad7379c575321df3f6d143a0dcd",
+     "exhibit_url_fetched": "https://anvil.yourarmor.ai/exhibits/a3243c69115f6a3c.json",
+     "graded_at_utc": "2026-08-28T16:05:01Z",
+     "grading_deadline_utc": "2026-09-04T15:20:50Z",
+     "official_snapshot": {
+      "raw_file": "oracles/yahoo/20260828T160502Z_91a6a52a.raw",
+      "sha256": "91a6a52af590def1df13763a7d81a6d7a824d303ea07a3ad321595034e7abd6e",
+      "url": "https://anvil.yourarmor.ai/oracles/yahoo/20260828T160502Z_91a6a52a.raw"
+     },
+     "official_source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1787529600&interval=1d&events=history",
+     "official_source_fallback_note": "niftyindices.com not usable at grading time: niftyindices fetch failed for 'NIFTY 50' (Expecting value: line 1 column 2 (char 1)). The site is browser-gated; either download the TRI CSV manually and snapshot it, or use the ental adapter (search 'NIFTY 50 TRI') for the same series.",
+     "official_source_kind": "independent record of official NIFTY 50 closes (Yahoo Finance ^NSEI daily close, IST session dates)",
+     "recomputed": {
+      "benchmark_return_pct": -5.1393,
+      "gap_bps": 984.31,
+      "observations": 122,
+      "portfolio_return_pct": 4.7038
+     },
+     "tolerance_check": {
+      "dates_checked": 122,
+      "max_abs_deviation_pct": 0.3726,
+      "official_close_on_worst_date": 23002.150390625,
+      "tolerance_pct": 0.5,
+      "worst_date": "2026-03-19"
+     },
+     "verdict_basis": "all three hit_if legs pass"
+    },
+    "seq": 5,
+    "verdict": "HIT"
+   },
+   "sig_b64": "n3nhpPvsswEFhjO+hZ/NdWCJSsi7GC45BNZ5SNeIay1LLS1N6lL7F3AQSKep7lZBWGHZVZmTljmSZwYX2yjJAw==",
+   "resolves": "yogesh@anvil:4"
   }
  ],
  "claims": {
@@ -2922,9 +3014,9 @@
    "claimant_id": "yogesh@anvil",
    "horizon": "2026-08-28T15:20:50Z",
    "grading_window": "168h",
-   "status": "PENDING",
-   "resolution_leaf": null,
-   "verdict": null,
+   "status": "HIT",
+   "resolution_leaf": 14,
+   "verdict": "HIT",
    "url": "https://anvil.yourarmor.ai/claims/yogesh@anvil:4"
   }
  },
@@ -13413,6 +13505,16 @@
     "tree_size": 14
    },
    {
+    "token": "checkpoint.20260828T160513Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T160513Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T160513Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-08-28T16:05:13Z",
+    "tree_size": 15
+   },
+   {
     "token": "digicert/checkpoint.20260717T083633Z.tsr",
     "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z.tsr",
     "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260717T083633Z",
@@ -23641,17 +23743,27 @@
     "tsa": "digicert",
     "time_utc": "2026-08-28T15:17:02Z",
     "tree_size": 14
+   },
+   {
+    "token": "digicert/checkpoint.20260828T160514Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260828T160514Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260828T160514Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260828T160514Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260828T160514Z",
+    "tsa": "digicert",
+    "time_utc": "2026-08-28T16:05:14Z",
+    "tree_size": 15
    }
   ],
   "latest": {
-   "token": "checkpoint.20260828T151701Z.tsr",
-   "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T151701Z.tsr",
-   "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T151701Z",
-   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T151701Z.tsr",
-   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T151701Z",
-   "tsa": "freetsa.org",
-   "time_utc": "2026-08-28T15:17:02Z",
-   "tree_size": 14
+   "token": "digicert/checkpoint.20260828T160514Z.tsr",
+   "token_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260828T160514Z.tsr",
+   "checkpoint_url": "https://anvil.yourarmor.ai/witness/digicert/checkpoint.20260828T160514Z",
+   "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260828T160514Z.tsr",
+   "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/digicert/checkpoint.20260828T160514Z",
+   "tsa": "digicert",
+   "time_utc": "2026-08-28T16:05:14Z",
+   "tree_size": 15
   },
   "first_by_tree_size": {
    "2": {
@@ -23753,6 +23865,16 @@
     "tsa": "freetsa.org",
     "time_utc": "2026-08-21T15:21:15Z",
     "tree_size": 14
+   },
+   "15": {
+    "token": "checkpoint.20260828T160513Z.tsr",
+    "token_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z.tsr",
+    "checkpoint_url": "https://anvil.yourarmor.ai/witness/checkpoint.20260828T160513Z",
+    "mirror_token_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T160513Z.tsr",
+    "mirror_checkpoint_url": "https://raw.githubusercontent.com/ytomar/anvil-mirror/main/witness/checkpoint.20260828T160513Z",
+    "tsa": "freetsa.org",
+    "time_utc": "2026-08-28T16:05:13Z",
+    "tree_size": 15
    }
   },
   "tsa_certs": [
@@ -23924,6 +24046,18 @@
    "independence": "independent public source",
    "fetch_count": 1,
    "raw_url": "https://anvil.yourarmor.ai/oracles/yahoo/20260821T151615Z_83e3d4aa.raw"
+  },
+  {
+   "source": "yahoo",
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1771286400&period2=1787529600&interval=1d&events=history",
+   "fetched_at_utc": "20260828T160502Z",
+   "sha256": "91a6a52af590def1df13763a7d81a6d7a824d303ea07a3ad321595034e7abd6e",
+   "bytes": 12529,
+   "raw_file": "oracles/yahoo/20260828T160502Z_91a6a52a.raw",
+   "note": "daily closes ^NSEI 2026-02-20..2026-08-21",
+   "independence": "independent public source",
+   "fetch_count": 1,
+   "raw_url": "https://anvil.yourarmor.ai/oracles/yahoo/20260828T160502Z_91a6a52a.raw"
   }
  ]
 }
