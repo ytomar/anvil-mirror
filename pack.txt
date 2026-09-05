@@ -3,7 +3,7 @@ origin: anvil.yourarmor.ai/log/v0   (this file is RENDERED from the log; the log
 verify it yourself: https://anvil.yourarmor.ai/verify
 
 Checkpoint: tree size 15, root srQc4Am1wB8Y4IlhRALUJVyCCS4U7cgFALTfy85CONU=
-Last external witness (RFC 3161, digicert): 2026-09-05T06:17:02Z covering tree size 15
+Last external witness (RFC 3161, digicert): 2026-09-05T07:17:03Z covering tree size 15
 This rendering was generated only after the reference checks passed — a property of the generator, not evidence. Entry-level problems recorded: 0. Re-run the checks yourself: https://anvil.yourarmor.ai/verify
 
 Claimants (3):
@@ -51,4 +51,4 @@ Claim status counts: {"HIT": 6}
 What failure would look like: an edited entry breaks the Merkle root; a deleted
 entry breaks per-claimant seq density; a backdated entry contradicts the RFC 3161
 timestamps. None of these can be hidden from the verifier at https://anvil.yourarmor.ai/verify.py.
-generated_at: 2026-09-05T06:17:02Z
+generated_at: 2026-09-05T07:17:03Z
